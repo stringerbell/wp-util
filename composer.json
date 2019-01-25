@@ -1,0 +1,21 @@
+{
+    "name": "dannstockton/wp-util",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "phpstan/phpstan": "^0.11.1"
+    },
+    "authors": [
+        {
+            "name": "Dann Stockton",
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    },
+    "scripts": {
+        "test": "phpunit src",
+        "stan": "phpstan analyse --level=0 src"
+    }
+}
