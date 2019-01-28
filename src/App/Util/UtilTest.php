@@ -64,6 +64,7 @@ class UtilTest extends TestCase {
         ['/svg/partials_mag-glass.svg', '/views/partials/svg/partials_mag-glass.svg'],
         ['/icons/partials_mag-glass.svg', '/views/partials/svg/icons/partials_mag-glass.svg'],
         ['/views/partials/svg/icons/partials_mag-glass.svg', '/views/partials/svg/icons/partials_mag-glass.svg'],
+        ['//views/partials/svg/icons/partials_mag-glass.svg', '/views/partials/svg/icons/partials_mag-glass.svg'],
       ];
   }
 }
